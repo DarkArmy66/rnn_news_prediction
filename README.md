@@ -16,12 +16,20 @@ This repository contains a Recurrent Neural Network (RNN) for classifying news a
 
 ## Installation
 
-### Prerequisites
-Ensure you have the following installed:
-- Python 3.10 or higher
-- `pip`
+Easy way: 
 
-### Steps
+Linux: 
+'''sh
+./setup.sh
+'''
+
+Windows: 
+'''sh
+setup.bat
+'''
+
+
+Hard Way:
 
 1. **Clone the repository**:
     ```sh
@@ -29,9 +37,9 @@ Ensure you have the following installed:
     cd rnn_news_prediction
     ```
 
-2. **Create a virtual environment** (optional but recommended):
+2. **Create a virtual environment**:
     ```sh
-    python -m venv venv
+    python3.12 -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     ```
 
@@ -53,8 +61,8 @@ Ensure you have the following installed:
 
 ## Usage
 
-- **Type** a news article into the provided text box.
-- **Click** the "Predict" button to view the predicted news category.
+- **Type** Choose a random news article, copy a paragraph and paste it into the widget.
+- **Click** the "Predict" button to view the predicted news category 
 
 ---
 
@@ -66,6 +74,5 @@ Ensure you have the following installed:
 
 ---
 
-## Repository Structure
 
 
