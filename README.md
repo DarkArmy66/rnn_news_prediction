@@ -1,3 +1,7 @@
+
+Overview:
+This repository contains resources for the Deep Learning Concepts seminar at the University of Osnabrück (2024/2025), led by Lukas Niehaus and Robin Rawiel. If features practical application of Recurrent Neural Networks (RNNs),drawing upon Chapter 10 of the book "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+
 # RNN News Classification
 
 This is an RNN for classifying news articles into categories (world, business, sci-tech, sports)
