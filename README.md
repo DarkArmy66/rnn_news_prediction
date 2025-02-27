@@ -2,6 +2,39 @@
 
 This project, developed by Waldo Ungerer and Maedeh Amini, implements a Recurrent Neural Network (RNN) for the classification of news articles into four categories: world, business, sci-tech, and sports. The model is trained using PyTorch, with tokenization facilitated by Hugging Face Transformers, and the AG News dataset is employed for both training and evaluation.
 
+# QUICKSTART
+
+You have 2 options for running the code:
+
+### A) COLAB
+[Colab Notebook](https://colab.research.google.com/drive/1Yd9tQtCazrU4OJEt6fTMR5fwRldZz-8n?usp=sharing)
+
+1. Run all the cells until you get to the widget.
+2. Choose random news text from your preferred source of news, paste it into the widget, and click on PREDICT.
+   - You should get an accurate estimate of what sort of news it is...
+
+*Note: The first time you run the code, you will need to train the model. After it is trained, you can load the trained model instead of needing to train it again (you will see the line in the code that can be uncommented for this).*
+
+### B) CLONE AND RUN
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/DarkArmy66/rnn_news_prediction.git
+   cd rnn_news_prediction
+   python3 -m venv test   
+   source test/bin/activate
+   pip install -r requirements.txt
+   pip install torch transformers datasets
+
+2. Pre-load the trained model (optional):
+    - The trained model is in the "models" folder, but we recommend training the model from scratch.
+    - Run the notebook: Go to the notebooks folder and run demo.ipynb. This will import and run the necessary stuff.
+3. (Optional) Run main.py from your code editor:
+    - Remember to install "torch" first:
+    - pip install torch
+
+
+
 ## Usage
 1. Input a news snippet into the interactive widget.
 2. Click the "Predict" button.
