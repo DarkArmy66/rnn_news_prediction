@@ -4,6 +4,8 @@ This project, developed by Waldo Ungerer and Maedeh Amini, implements a Recurren
 
 # QUICKSTART
 
+Note: we are using python 3.12
+
 You have 2 options for running the code:
 
 ### A) COLAB
